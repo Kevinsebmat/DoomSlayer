@@ -1,0 +1,203 @@
+.cursorChange:hover{
+    cursor: pointer;
+    color: green;
+}
+
+#startScreen{
+    position: fixed;
+    top:0;
+    width:100%;
+    height: 100%;
+    z-index: 20;
+    background-image: url("../resources/sprites/background/startBackgroundd.gif");
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.startScreen__content{
+    position: relative;
+    top: -2%;
+    right: 37%;
+    margin: auto;
+}
+
+
+.title{
+    position: relative;
+    top: 0%;
+    right: 27%;
+    margin: auto;
+    color:black;
+
+}
+
+#DoomSlayer{
+        font-size:175px;
+
+}
+@font-face {
+    font-family: "Amazdoom";
+    src: url("../fonts/AmazDooMLeft.ttf") format("truetype");
+   
+}
+
+#startButton{
+    width: 120%;
+    font-size: 60px;
+    transition: 0.5s ease;
+    color: rgb(185, 53, 53);
+}
+
+#startButton:hover{
+    letter-spacing: 10px;
+    color: rgb(247, 83, 83);
+    cursor: pointer;
+}
+
+.startScreen__content__box{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    width:90%;
+    font-size: large;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+.instruction_content_box{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    width:90%;
+    font-size: large;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+.unmute{
+  background-image: url("muteoff.png");
+  background-size: cover;
+  width:35px;
+  height:30px;
+  cursor: pointer;
+  }
+
+.mute{
+  background-image: url("../mute.png");
+  width:15px;
+  height:10px;
+  color: rgb(247, 83, 83);
+  }
+
+#instruction{
+    width: 30%;
+    font-size: 90px;
+    transition: 0.5s ease;
+    color: rgb(185, 53, 53);
+
+}
+
+.selection{
+    width: 110%;
+    color: rgb(0, 0, 0);
+    font-size: 60PX;
+    position: relative;
+    top: -10%;
+    right: -9.5%;
+    margin: auto;
+
+}
+
+.arrow{
+    opacity: 1;
+    color: rgb(185, 53, 53);
+    font-size: 40px;
+    width: 23%;
+    transition: 0.5s ease-in-out;
+    position: relative;
+    top: 0%;
+    right: 44.7%;
+    margin: auto;
+
+}
+
+.arrow:hover{
+    color: rgb(247, 83, 83);
+    cursor: pointer;
+}
+
+#startScreenFooter{
+    position: absolute;
+   
+    font-size: 35px;
+    bottom: 0;
+    width: 100%;
+    color: rgb(228, 228, 150);
+}
+
+#Github{
+
+    position:absolute;
+    right:38%;
+    width:40px;
+    height:37px;
+
+}
+
+#GitHub:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+#Linkedin{
+
+    position:absolute;
+    right:33%;
+    width:38px;
+    height:37px;
+
+}
+#Linkedin:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.story {
+  border: solid 5px rgb(0, 0, 0);
+  background: black;
+  background-image: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px;
+  color: white;
+  width:740px;
+  left: 30vw;
+  height: 421px;
+  top: 10vw;
+  position: absolute;
+  font-size: 35px;
+  display: flex;
+  opacity: 0;
+}
+.story.up {
+  opacity: 1;
+  background-image: url("../resources/sprites/scoreImages/instructions.gif");
+}
+.op {
+background: black;
+color: black;
+height: 79px;
+width: 152px;
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+position: absolute;
+bottom: 350px;
+left: 104px;
+display: inline-flex;
+align-items: flex-end;
+
+font-weight: 900;
+font-size: 40px;
+color: rgb(185, 53, 53);
+}
+

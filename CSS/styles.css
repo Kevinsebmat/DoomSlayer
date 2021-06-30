@@ -1,0 +1,138 @@
+@font-face {
+    font-family: asset;
+    src: url('../resources/fonts/Asset/AmazDooMLeft.ttf');
+}
+
+h3 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+body {
+    max-height: 2000%;
+    margin: 0;
+    font-family: 'Asset', cursive;
+    user-select: none;
+    content: url("../resources/sprites/demon/hit.png") url("../resources/sprites/demon/flyrightup.gif") url("../resources/sprites/demon/flyrightdown.gif") url("../resources/sprites/demon/flyleftup.gif") url("../resources/sprites/demon/flyleftdown.gif") url("../resources/sprites/demon/flyright.gif") url("../resources/sprites/demon/flyleft.gif") url("../resources/sprites/demon/falling.gif");
+}
+
+.sky {
+    background-image: url("../resources/sprites/background/sky1.gif");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: crosshair;
+}
+
+.bushes {
+    z-index: 1;
+    position: relative;
+    bottom: -72%;
+    height: 155px;
+    background-image: url("../resources/sprites/background/bushes.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.demon {
+    left: 48%;
+    bottom: 20%;
+    background-image: url("../resources/sprites/demon/flyleft.gif");
+    position: absolute;
+    animation-timing-function: linear;
+    width: 130px;
+    height: 130px;
+    background-size: 100%;
+}
+
+.guy {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+#guy1 {
+    position: fixed;
+    width: 10vw;
+    height: 6vw;
+    z-index: 3;
+    left: 0%;
+    bottom: 20%;
+    background-image: url("../resources/sprites/guy/guyeWalking.gif");
+    animation-duration: .7s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    content: url("../resources/sprites/guy/guyeWalking.gif") url("../resources/sprites/guy/walk3.gif") url("../resources/sprites/guy/doomshoot.gif");
+}
+
+#guy2 {
+    position: fixed;
+    width: 20vw;
+    height: 20vw;
+    left: 40%;
+    top: 30%;
+    /* bottom: 200%; */
+    /* transition-duration: 2s;
+  animation-duration:0.5s;
+  animation-iteration-count:2; */
+    content: url("../resources/sprites/guy/gotOne.png") url("../resources/sprites/guy/gotTwo.gif")url("../resources/sprites/guy/bk.gif");
+}
+
+.easingOut {
+    animation-name: guy2Show;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.comboMessage {
+    font-size: 50px;
+    display: none;
+    z-index: 7;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    animation-name: flash;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+#homeButton{
+color: rgb(221, 212, 212);
+font-size:3vw;
+}
+
+#homeButton:hover{
+    color: rgb(255, 55, 55);
+}
+
+@keyframes flash {
+    0% {
+        color: red
+    }
+    100% {
+        color: rgb(209, 76, 76)
+    }
+}
+
+@keyframes guy2Show {
+    0% {
+        left: 48%;
+        bottom: 20%;
+    }
+    20% {
+        left: 48%;
+        bottom: 35%;
+    }
+    80% {
+        left: 48%;
+        bottom: 35%;
+    }
+    100% {
+        left: 48%;
+        bottom: 20%;
+    }
+}
