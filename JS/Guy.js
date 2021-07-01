@@ -47,16 +47,32 @@ class Guy {
             function hideImage(myVar) {
                 document.getElementById("guy2").style.display = "none";
             }
-        } else if (killedDemons == 1) {
+        } else if (killedDemons >= 1) {
             document.getElementById("guy2").style.display = "block";
             $(this.guyId).css("backgroundImage", 'url(../resources/sprites/guy/gotOne.gif)');
+            const myVar = $(this.guyId);
+            $("guy2").fadeIn();
+            setTimeout(function() {
+              hideImage(myVar)
+            }, 2000);
+              function hideImage(myVar) {
+                document.getElementById("guy2").style.display = "none";
+              }
+        } else {
+            document.getElementById("guy2").style.display = "block";
+            $(this.guyId).css(
+              "backgroundImage",
+              "url(../resources/sprites/guy/bk.gif)"
+            );
             const myVar = $(this.guyId);
             $("guy2").fadeIn();
             setTimeout(function () {
               hideImage(myVar);
             }, 2000);
-        } else {
-            $(this.guyId).css("backgroundImage", 'url(../resources/sprites/guy/gotTwo.gif)');
+
+            function hideImage(myVar) {
+              document.getElementById("guy2").style.display = "none";
+            }
         }
 
         $(this.guyId)

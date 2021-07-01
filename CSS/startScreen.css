@@ -16,7 +16,7 @@
 
 .startScreen__content{
     position: relative;
-    top: -2%;
+    top: -12%;
     right: 37%;
     margin: auto;
 }
@@ -24,7 +24,7 @@
 
 .title{
     position: relative;
-    top: 0%;
+    top: -5%;
     right: 27%;
     margin: auto;
     color:black;
@@ -58,6 +58,7 @@
     display: flex;
     flex-wrap: nowrap;
     margin: auto;
+    
     width:90%;
     font-size: large;
     text-align: center;
@@ -73,6 +74,7 @@
     font-size: large;
     text-align: center;
     color: rgb(255, 255, 255);
+   
     
 }
 .unmute{
@@ -91,10 +93,11 @@
   }
 
 #instruction{
-    width: 30%;
+    width: 25%;
     font-size: 90px;
     transition: 0.5s ease;
     color: rgb(185, 53, 53);
+    
 
 }
 
@@ -185,14 +188,14 @@
 .op {
 background: black;
 color: black;
-height: 79px;
-width: 152px;
+height: 70px;
+width: 155px;
 background-size: contain;
 background-position: center;
 background-repeat: no-repeat;
 position: absolute;
-bottom: 350px;
-left: 104px;
+bottom: 290px;
+left: 77px;
 display: inline-flex;
 align-items: flex-end;
 

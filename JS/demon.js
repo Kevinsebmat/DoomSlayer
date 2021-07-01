@@ -33,7 +33,7 @@ class demon {
 
 
     moveToInitialPosition() {
-        $(this.demonId).css("bottom", "20%");
+        $(this.demonId).css("bottom", "3%");
     }
 
 
@@ -54,9 +54,11 @@ class demon {
         setTimeout(function() {
             $(this_.demonId)
                 .css("background-image", "url(../resources/sprites/demon/falling.gif)")
-                .animate({ bottom: `10%`, }, 650);
+                .animate({ bottom: `3%`, }, 650);
         }, 150);
     }
+
+   
 
 
     fly() {
