@@ -8,6 +8,15 @@ You are a super soldier named the Doomslayer tasked with protecting the Earth fr
 <img width="500" alt="Screen Shot 2021-06-23 at 3 15 01 PM" src="https://user-images.githubusercontent.com/65047030/123175019-ebd6a500-d435-11eb-80ba-76a0c46ffad0.png">
 
 
+### How to play:
+The game has three modes:
+1. HARD - two demons, three shots - Precision is your best friend. 
+2. NORMAL - three demons, five shots - You’re not that special.
+3. EASY - after each round one more demon is added (up to 20), You have 20 shots to take them down. This mode provides full auto shooting.- Your laziness is embarrassing. 
+
+The player receives points upon shooting each demon. High scores are stored in browser Local Storage.
+To pass each round You must take down more than 80% of demons. 
+
 `MVPs`
  1. Allow player movement on the canvas via mouse functions.
  2. Allow enemy movement on the canvas. 
