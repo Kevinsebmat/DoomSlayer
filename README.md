@@ -12,7 +12,7 @@ You are a super soldier named the Doomslayer tasked with protecting the Earth fr
 The game has three modes:
 1. HARD - two demons, three shots - Precision is your best friend. 
 2. NORMAL - three demons, five shots - You’re not that special.
-3. EASY - after each round one more demon is added (up to 20), You have 20 shots to take them down. This mode provides full auto shooting.- Your laziness is embarrassing. 
+3. EASY - after each round one more demon is added (up to 20), You have 20 shots to take them down. This mode provides full auto shooting- Your lack of skill is apparent.
 
 The player receives points upon shooting each demon. High scores are stored in browser Local Storage.
 To pass each round You must take down more than 80% of demons. 
