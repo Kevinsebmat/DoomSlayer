@@ -4,26 +4,25 @@
     <title>DoomSlayer</title>
     <link rel="shortcut icon" type="image/x-icon" href="../resources/sprites/demon/png/right1.png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../CSS/styles.css">
-    <link rel="stylesheet" href="../CSS/bar.css">
-    <link rel="stylesheet" href="../CSS/overlays.css">
-    <link rel="stylesheet" href="../CSS/startScreen.css">
-    <script src="../JS/JQuery/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/bar.css">
+    <link rel="stylesheet" href="CSS/overlays.css">
+    <link rel="stylesheet" href="CSS/startScreen.css">
+    <script src="JS/JQuery/jquery-3.3.1.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <audio id ="my_audio" autoplay> 
-        <source src="/resources/sounds/doomsgate.mp3" type="audio/ogg"> 
-        
+    <audio autoplay> 
+        <source src="resources/sounds/test.ogg" type="audio/ogg"> 
     </audio>
-       <!-- <button id="mute" class="op" type="button" onkeyup="event.preventDefault()"></button> -->
+    <!-- <button id="mute" class="op" type="button" onkeyup="event.preventDefault()"></button> -->
 
     <!-- <script> 
         document.getElementById('my_audio').muted = true;
     </script> -->
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <audio id="doomsgate.mp3" autoplay="autoplay" loop="loop">
         <source src="/resources/sounds/doomsgate.mp3" type="audio/ogg" >
@@ -50,14 +49,13 @@
     </div>
     
 </button>
-        <div> 
+        <div>
             <!-- <a href="#" onclick="document.getElementById('my_audio').muted = true; return false"> test</a> -->
             <!-- <input class="mute" /> -->
             <!-- <button class="unmute" ></button>
             <a href="#" onclick="document.getElementById('my_audio').muted = false; return false"><img src="mute.png" width="50" height="60"/></a> -->
-            <div class='unmute' 
-                      onclick="document.getElementById('my_audio').muted = !document.getElementById('my_audio').muted;$(this).toggleClass('mute')"></div>
-       </div>
+            <!--             <div class='unmute' onclick="document.getElementById('my_audio').muted = !document.getElementById('my_audio').muted;$(this).toggleClass('mute')"></div> -->
+        </div>
 
 
         <div id="wut">
@@ -118,7 +116,7 @@
         </div>
     </div>
     <div id="sky" class="sky">
-    
+
         <div id="homeButton" class="cursorChange" onClick="window.location.reload()">Back to Menu</div>
 
         <div class="comboMessage"></div>
@@ -186,23 +184,23 @@
                 </tr>
             </table>
             <h3 id="playAgainButton" class="cursorChange" onClick="window.location.reload()">PLAY AGAIN</h3>
-           
-         <!-- <div class="startScreen__content__box" onclick="launchApplication() ">
+
+            <!-- <div class="startScreen__content__box" onclick="launchApplication() ">
                 <h2 id="startButton">RESTART</h2>
-            </div> --> -->
+            </div> -->-->
         </div>
     </div>
 
-    <script src="../JS/PointsHandler.js" defer="true"></script>
-    <script src="../JS/demonsHandler.js" defer="true"></script>
-    <script src="../JS/demon.js" defer="true"></script>
-    <script src="../JS/View.js" defer="true"></script>
-    <script src="../JS/ShotHandler.js" defer="true"></script>
-    <script src="../JS/sounds.js" defer="true"></script>
-    <script src="../JS/Guy.js" defer="true"></script>
-    <script src="../JS/Game.js" defer="true"></script>
-    <script src="../JS/StartScreen.js" defer="true"></script>
-    <script src="../JS/Application.js" defer="true"></script>
+    <script src="JS/PointsHandler.js" defer="true"></script>
+    <script src="JS/demonsHandler.js" defer="true"></script>
+    <script src="JS/demon.js" defer="true"></script>
+    <script src="JS/View.js" defer="true"></script>
+    <script src="JS/ShotHandler.js" defer="true"></script>
+    <script src="JS/sounds.js" defer="true"></script>
+    <script src="JS/Guy.js" defer="true"></script>
+    <script src="JS/Game.js" defer="true"></script>
+    <script src="JS/StartScreen.js" defer="true"></script>
+    <script src="JS/Application.js" defer="true"></script>
 </body>
 
 </html>
