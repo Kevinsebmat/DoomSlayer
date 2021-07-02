@@ -1,7 +1,7 @@
 # DoomSlayer
 You are a super soldier named the Doomslayer tasked with protecting the Earth from the invasion of demons. The player receives points once a demon is succesfully shot. Scores are stored in the browser local storage with multi-kills granting additional score points. Each level is passed upon successful hit of 90% of the level's enemies.  
 
-[DoomSlayer Live](https://kevinsebmat.github.io/DoomSlayer/)
+[DoomSlayer Live](https://xenodochial-fermi-386461.netlify.app/)
 
 <img width="700" alt="Screen Shot 2021-06-23 at 3 36 17 PM" src="https://user-images.githubusercontent.com/65047030/123176701-cc8d4700-d438-11eb-9ab3-be72d6a1bc6c.png">
 
