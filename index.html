@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <audio autoplay> 
+    <audio id="my_audio" autoplay> 
         <source src="resources/sounds/test.ogg" type="audio/ogg"> 
     </audio>
     <!-- <button id="mute" class="op" type="button" onkeyup="event.preventDefault()"></button> -->
@@ -44,7 +44,7 @@
     <div id="startScreen">
         <button id="op" class="op" type="button" onkeyup="event.preventDefault()">
     <div id="op-text" class="op-text">
-        Instructions
+        Instructions 
        
     </div>
     
@@ -59,7 +59,7 @@
 
 
         <div id="wut">
-        </div> -->
+        </div>
         <script>
             document.getElementById('op').onclick = function() {
                 let pstory = document.getElementById('wut');
@@ -86,7 +86,7 @@
 
 
         <div class="title">
-            <h1 id="DoomSlayer">DoomSlayer</h1>
+            <h1 id="DoomSlayer">DoomSlayers</h1>
         </div>
         <div class="startScreen__content">
             <br>
@@ -106,6 +106,17 @@
                     }
                 </script> -->
             </div>
+            <div class='mute-on' onclick="toggleSound()">
+                <img class="my-image" src="resources/images/mute.png" width="50" height="50" alt="mute" />
+
+            </div>
+
+            <div>
+                <a href="#">
+                    <div class="plus">CHANGE</div>
+                </a>
+            </div>
+
         </div>
         <div id="startScreenFooter">
             <p>By Kevin Mathews
