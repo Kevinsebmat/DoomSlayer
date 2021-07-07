@@ -144,27 +144,26 @@ body {
     bottom: 100px;
 }
 
-.plus {
+
+/* .plus {
     position: relative;
     left: 200px;
     bottom: 200px;
     background-image: url("https://cdn0.iconfinder.com/data/icons/ie_Bright/128/plus_add_blue.png");
-    /* width: 130px;
-    height: 130px; */
     background-repeat: no-repeat;
-}
+} */
 
-.plus.minus {
+
+/* .plus.minus {
     position: relative;
     left: 200px;
     bottom: 200px;
     background-image: url("https://cdn0.iconfinder.com/data/icons/ie_Bright/128/plus_add_minus.png");
-    /* width: 130px;
-    height: 130px; */
     background-repeat: no-repeat;
-}
+} */
 
-.mute-on {
+
+/* .mute-on {
     position: relative;
     left: 900px;
     bottom: 200px;
@@ -172,12 +171,13 @@ body {
     background-repeat: no-repeat;
     width: 50px;
     height: 300px;
-}
+} */
 
-.mute-on.off {
+
+/* .mute-on.off {
     position: relative;
     left: 100px;
     bottom: 100px;
     background-image: url("../resources/images/muteoff.png");
     background-repeat: no-repeat;
-}
+} */
