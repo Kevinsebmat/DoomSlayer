@@ -16,21 +16,22 @@
 
 .startScreen__content {
     position: relative;
-    top: -12%;
+    top: -8%;
     right: 37%;
     margin: auto;
 }
 
 .title {
     position: relative;
-    top: -5%;
+    top: 2%;
     right: 27%;
     margin: auto;
-    color: rgb(17, 16, 16);
+    color: rgb(0, 0, 0);
 }
 
 #DoomSlayer {
     font-size: 175px;
+   
 }
 
 @font-face {
@@ -81,8 +82,8 @@
 
 .mute {
     background-image: url("../mute.png");
-    width: 15px;
-    height: 10px;
+    width: 20px;
+    height: 15px;
     color: rgb(247, 83, 83);
 }
 

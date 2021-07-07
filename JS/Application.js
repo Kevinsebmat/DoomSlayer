@@ -34,7 +34,7 @@ function toggleSound() {
         $(".my-image").attr("src", "resources/images/mute.png");
     } else {
         audioElem.pause();
-        $(".my-image").attr("src", "resources/images/speaker.png");
+        $(".my-image").attr("src", "resources/images/muteoff.png");
     }
 }
 
